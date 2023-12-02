@@ -1,7 +1,3 @@
-type ObjectShape = {
-  id: number;
-};
-
 export function updateObjectInArray<ObjectShape>(
   initialArray: ObjectShape[],
   key: keyof ObjectShape,
